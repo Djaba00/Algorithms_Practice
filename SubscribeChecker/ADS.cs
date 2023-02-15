@@ -1,8 +1,8 @@
 ﻿using System;
 namespace SubscribeChecker
 {
-	public class ADS
-	{
+    public class ADS
+    {
         public static void ShowAds(int num)
         {
             switch(num)
