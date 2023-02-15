@@ -27,7 +27,6 @@ namespace SubscribeChecker
                 Console.WriteLine("Пользователь с указанным логином не найден!");
             }
         }
-
     }
 }
 
