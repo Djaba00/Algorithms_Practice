@@ -3,10 +3,10 @@ using System.Collections.Generic;
 
 namespace SubscribeChecker
 {
-	public static class Authorization
+    public static class Authorization
+    {
+	public static void Entrance(List<User> user)
 	{
-		public static void Entrance(List<User> user)
-		{
             Console.Write("Авторизация\nВведите свой логин: ");
             string login = Console.ReadLine();
 
@@ -29,4 +29,3 @@ namespace SubscribeChecker
         }
     }
 }
-
